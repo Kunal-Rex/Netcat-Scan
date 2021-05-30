@@ -6,7 +6,6 @@ import sys
 if(len(sys.argv) != 3):
 	print('''[*]Enter <ip-range>/<prefix> <ports>(seperated by ",")		
 [*]Example ./nc_scan.py 192.168.10.128/24 53,80
-
 		''')
 	sys.exit(0)
 else:
